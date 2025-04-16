@@ -44,17 +44,6 @@
     font-size: 24px;
 }
 
-.description {
-    background: #fafafa;
-    border: 1px solid #e8e8e8;
-    border-radius: 4px;
-    padding: 20px;
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 1.8;
-    color: #333;
-}
-
 .title {
     color: #1890ff;
     font-size: 18px;
@@ -91,19 +80,6 @@ h1 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-.description h3 {
-    color: #1890ff;
-    margin-top: 0;
-}
-
-.description ul {
-    padding-left: 20px;
-}
-
-.description li {
-    margin-bottom: 8px;
-}
-
 .tag {
     display: inline-block;
     background: #e6f7ff;
@@ -137,19 +113,16 @@ h1 {
             <div class="box">
                 <div class="title">应用创建</div>
                 <div>• 业务指标配置<br>• 资源准备<br>• 基础信息设置</div>
-                <div class="subtitle">系统初始化阶段</div>
             </div>
             <div class="arrow">→</div>
             <div class="box">
                 <div class="title">数据接入</div>
                 <div>• 数据字段定义<br>• 归因与去重配置<br>• 数据质量校验</div>
-                <div class="subtitle">数据基础阶段</div>
             </div>
             <div class="arrow">→</div>
             <div class="box">
                 <div class="title">特征工程</div>
                 <div>• 行业模板配置<br>• 自动/自定义特征<br>• 特征验证</div>
-                <div class="subtitle">特征处理阶段</div>
             </div>
         </div>
 
@@ -171,62 +144,10 @@ h1 {
             <div class="arrow">→</div>
             <div class="box">
                 <div class="title">服务部署</div>
-                <div>• 栏位配置<br>• 服务版本管理<br>• 资源配置</div>
+                <div>• 栏位配置<br>• 版本管理<br>• A/B测试<br>• 效果监控</div>
                 <div class="tag">实时服务</div>
             </div>
         </div>
-
-        <div class="vertical-arrow">↓</div>
-
-        <!-- 第三阶段：在线服务 -->
-        <div class="stage">
-            <div class="box">
-                <div class="title">在线服务</div>
-                <div>• API调用<br>• 效果监控<br>• 服务优化</div>
-                <div class="subtitle">毫秒级响应</div>
-            </div>
-            <div class="arrow">→</div>
-            <div class="box">
-                <div class="title">效果分析</div>
-                <div>• 实时监控<br>• 效果分析<br>• 策略优化</div>
-                <div class="subtitle">持续优化</div>
-            </div>
-            <div class="arrow">→</div>
-            <div class="box">
-                <div class="title">运营管理</div>
-                <div>• 版本管理<br>• 资源监控<br>• 成本优化</div>
-                <div class="subtitle">稳定运行</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="description">
-        <h3>架构说明：</h3>
-        <p><strong>1. 初始化配置阶段</strong></p>
-        <p>完成应用创建、数据接入和特征工程的基础配置，为推荐服务打好基础。支持行业模板快速配置，同时保留完整的自定义能力。</p>
-        
-        <p><strong>2. 模型与策略阶段</strong></p>
-        <p>结合预置模型和自定义模型，配置召回、排序策略，支持灵活的业务规则配置，实现精准推荐。</p>
-        
-        <p><strong>3. 在线服务阶段</strong></p>
-        <p>提供高性能的在线推荐服务，支持实时监控和优化，确保服务质量和效果。</p>
-
-        <p><strong>核心特点：</strong></p>
-        <ul>
-            <li>支持自动化特征工程和预置模型，快速上线</li>
-            <li>提供完整的自定义能力，满足个性化需求</li>
-            <li>全流程数据质量监控和效果评估</li>
-            <li>支持A/B测试和灵活的策略配置</li>
-            <li>毫秒级响应，保证推荐服务质量</li>
-        </ul>
-
-        <p><strong>最佳实践：</strong></p>
-        <ul>
-            <li>建议先使用行业模板快速验证效果</li>
-            <li>根据业务需求逐步开启自定义特征和模型</li>
-            <li>合理配置资源，优化成本效益比</li>
-            <li>定期分析效果数据，持续优化策略</li>
-        </ul>
     </div>
 </div>
 </body>
